@@ -1,5 +1,8 @@
 node_modules/
 .env
+<<<<<<< HEAD
 .DS_Store
 npm-debug.log
 coverage/
+=======
+>>>>>>> 9a8c6fa3de1c2c84748743d14786838f14cfc484
