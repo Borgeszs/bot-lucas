@@ -1,0 +1,2 @@
+const { SlashCommandBuilder } = require('discord.js');
+module.exports = { data: new SlashCommandBuilder().setName('converter').setDescription('Converte metros para cm').addNumberOption(o=>o.setName('metros').setDescription('Metros').setRequired(true)), async execute(interaction){ const m = interaction.options.getNumber('metros'); await interaction.reply({ content: `${m} metros = ${m*100} cm`}); } };
